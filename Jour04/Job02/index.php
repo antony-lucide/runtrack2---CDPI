@@ -30,7 +30,6 @@ echo "<table>
 </table>";
 ?>
 
-<!-- HTML form for submitting data via GET method -->
 <form action="index.php" method="get">
   <label for="fname">First name:</label>
   <input type="text" id="fname" name="fname"><br><br>
