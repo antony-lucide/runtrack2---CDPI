@@ -1,0 +1,1 @@
+INSERT INTO salles (nom, id_etage, capacite) SELECT 'BIGGEST ROOM', 5 , 500 FROM salles ORDER BY capacite DESC LIMIT 1; 
